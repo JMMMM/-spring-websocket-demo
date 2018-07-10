@@ -20,4 +20,9 @@ public class SeatController {
         }
         return seats;
     }
+
+    @RequestMapping("/demo3")
+    public String demo3(){
+        return "Hello demo3";
+    }
 }
