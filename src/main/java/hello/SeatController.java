@@ -23,6 +23,6 @@ public class SeatController {
 
     @RequestMapping("/demo3")
     public String demo3(){
-        return "Hello demo3";
+        return "Hello demo3!!!";
     }
 }
